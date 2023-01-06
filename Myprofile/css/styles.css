@@ -104,3 +104,19 @@ p{
 .hobbyh1{
     margin-bottom: 10px;
 }
+#cta{
+    background-color: #753FF3;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+.ctah3{
+    font-size: 1.8rem;
+    margin: 50px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}

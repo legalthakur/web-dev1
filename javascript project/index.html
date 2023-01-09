@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tasks Assignment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Tasks Assignment</h1>
+  <form id="task-form">
+    <label for="description">Description:</label><br>
+    <input type="text" id="description" name="description"><br>
+    <label for="severity">Severity:</label><br>
+    <select id="severity" name="severity">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select><br>
+    <label for="assigned-to">Assigned To:</label><br>
+    <input type="text" id="assigned-to" name="assigned-to"><br><br>
+    <button type="submit" id="add-button">Add</button>
+  </form> 
+
+  <div id="task-container">
+  </div>
+
+  <table id="task-table">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Severity</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

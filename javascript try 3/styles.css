@@ -1,0 +1,18 @@
+
+
+body{
+    text-align: center;
+    
+    padding: 7% 25%;
+}
+
+#formdiv{
+    margin: 30px;
+}
+#tablediv{
+    margin: 30px;;
+}
+
+#carddiv{
+    margin: 30px;
+}

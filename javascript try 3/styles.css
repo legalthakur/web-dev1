@@ -1,18 +1,21 @@
 
 
-body{
-    text-align: center;
-    
-    padding: 7% 25%;
+
+#formDiv{
+    margin: 7% 15%;
 }
 
-#formdiv{
+#cardDiv{
     margin: 30px;
 }
-#tablediv{
-    margin: 30px;;
-}
-
-#carddiv{
-    margin: 30px;
+.disDiv{
+    /* display: inline-flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    display: inline-flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    overflow: scroll;
+    height: 100vh;
 }
